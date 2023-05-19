@@ -3,7 +3,7 @@ version: "3.8"
 services:
   snakeclef:
     image: snakeclef-example:latest
-    build: ..
+    build: .
     container_name: snakeclef-example
     volumes:
     - /media/Data-10T-1/Data/SnakeCLEF2023/val/SnakeCLEF2023-medium_size:/Data

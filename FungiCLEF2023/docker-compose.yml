@@ -3,7 +3,7 @@ version: "3.8"
 services:
   fungiclef:
     image: fungiclef-example:latest
-    build: ..
+    build: .
     container_name: fungiclef-example
     volumes:
     - /media/Data-10T-1/Data/DF21_300:/Data
