@@ -1,10 +1,10 @@
 version: "3.8"
 
 services:
-  fungiclef:
-    image: fungiclef-example:latest
+  snakeclef:
+    image: snakeclef-example:latest
     build: ..
-    container_name: fungiclef-example
+    container_name: snakeclef-example
     volumes:
     - /media/Data-10T-1/Data/SnakeCLEF2023/val/SnakeCLEF2023-medium_size:/Data
     # settings related to nvcr.io/nvidia/pytorch:22.12-py3 docker image
